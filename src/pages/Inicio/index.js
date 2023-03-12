@@ -1,8 +1,12 @@
-import Cabecalho from "../../components/Cabecalho"
+import Rodape from "components/Rodape"
+import Cabecalho from "components/Cabecalho"
 
-function Inicio () {
+function Inicio() {
     return (
-        <Cabecalho />
+        <>
+            <Cabecalho />
+            <Rodape />
+        </>
     )
 }
 
